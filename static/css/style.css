@@ -1,0 +1,57 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #ddd;
+}
+
+p {
+  line-height: 2rem;
+}
+
+nav ul li, p {
+  font-size: 1.2em;
+}
+
+.card-panel ul li, .collapsible-body ul li {
+  margin-bottom: 10px;
+}
+
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+}
+
+.breadcrumb {
+  color: grey !important;
+}
+
+.section-content h5 {
+  margin-bottom: 30px;
+}
+
+
+/*MAP STYLE*/
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:50%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
